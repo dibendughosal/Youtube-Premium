@@ -23,6 +23,7 @@ input{
     justify-content: space-between;
     align-items: center;
     padding: 15px 8px;
+    position: fixed;
 }
 .left-navbar{
     /* width: 30%; */
@@ -85,13 +86,13 @@ input{
     background-color: white;
     align-items: center;
     justify-content: center;
-    height: 60%;
+    height: 66%;
+    margin-top: 40px;
     font-family: Roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .logo{
     padding: 10px;
-    margin-top: 10px;
 }
 p{
     font-family:Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -145,4 +146,34 @@ a{
     text-align: center;
     font-size: 10px;
     
+}
+.bg1{
+    background: url(./image/bg1.jpeg);
+    height: 51%;
+    background-size: cover;
+}
+.bg1 > div{
+    padding: 125px 0px 0px 663px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bg1 > div > h2{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bg1 > div > p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.554);
+}
+.bg2{
+    background: url(./image/bg2.jpeg);
+    height: 51%;
+    background-size: cover;
+}
+.bg3{
+    background: url(./image/bg3.jpeg);
+    height: 51%;
+    background-size: cover;
 }
