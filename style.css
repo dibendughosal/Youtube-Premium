@@ -15,6 +15,7 @@ input{
     background-color: #3b3a3a;
     color: white;
 }
+/* Navbar */
 .navbar{
     width: 100%;
     height: 10%;
@@ -80,6 +81,7 @@ input{
     width: 30px;
     border-radius: 50%;
 }
+/* Content page */
 .premium{
     display: flex;
     flex-direction: column;
@@ -124,6 +126,7 @@ p{
 a{
     text-decoration: none;
 }
+/* feature section */
 .features{
     background-color: black;
     display: flex;
@@ -147,6 +150,7 @@ a{
     font-size: 10px;
     
 }
+/* Background img 1 */
 .bg1{
     background: url(./image/bg1.jpeg);
     height: 51%;
@@ -167,13 +171,67 @@ a{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.554);
 }
+/* Background Img 2 */
 .bg2{
     background: url(./image/bg2.jpeg);
     height: 51%;
     background-size: cover;
 }
+.bg2 > div{
+    padding: 125px 0px 0px 303px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bg2 > div > h2{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bg2 > div > p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.554);
+}
+/* Background Image 3 */
 .bg3{
     background: url(./image/bg3.jpeg);
     height: 51%;
     background-size: cover;
+}
+.bg3 > div{
+    padding: 125px 0px 0px 663px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bg3 > div > h2{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+}
+.bg3 > div > p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.554);
+}
+/* Background img 4 */
+.bg4{
+    background: url(./image/bg4.jpeg);
+    height: 51%;
+    background-size: cover;
+}
+.bg4 > div{
+    padding: 125px 0px 0px 253px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bg4 > div > h2{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bg4 > div > p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.554);
 }
