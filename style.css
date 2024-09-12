@@ -195,7 +195,7 @@ a{
 /* Background Image 3 */
 .bg3{
     background: url(./image/bg3.jpeg);
-    height: 51%;
+    height: 61%;
     background-size: cover;
 }
 .bg3 > div{
@@ -235,3 +235,35 @@ a{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.554);
 }
+/* FAQs sections */
+.faqs{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: azure;
+    gap: 10px;
+}
+.faqs > p{
+    float: inline-start;
+}
+.faqs-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    color: blue;
+}
+.helpcenter{
+    padding: 10px;
+}
+.faqdetails{
+    font-size: 20px;
+    padding: 10px;
+    font-family: roboto;
+}
+
